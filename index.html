@@ -141,7 +141,7 @@ g.goToPreviousPage=function(a,b,c,d,e){var f=this.f,h=this.a.length,l=f-1;0>l&&(
 g.getDefaultPage=function(){var a=this.getAttribute("default-page");return a?this.getPage(this.findPageIndexByAttributeValue("id",a)):this.getPage(0)};g.getOrientationSpecificPage=function(a,b){b=this.getPage(b);var c=b.getAttribute("alt-orientation-page");if(!c)return b;var d=b.isPortrait();a=1==a;c=this.getPage(c);return a==d?b:c};g.j=function(a,b){if(b.target==document.body){var c=this.getPage(this.f);y(a,c,b.detail)}};
 g.getElementById=function(a){for(var b=this.a.length,c=0;c<b;c++){var d=this.a[c].querySelector("#"+a);if(d)return d}return null};g.getElementsBySelector=function(a){for(var b=this.a.length,c=[],d=0;d<b;d++){var e=this.a[d].querySelectorAll(a);e&&(c=c.concat(Array.prototype.slice.call(e)))}return c};m.Object.defineProperties(O.prototype,{currentIndex:{configurable:!0,enumerable:!0,get:function(){return 0<=this.f?this.f:void 0}}});customElements.define("gwd-pagedeck",O);}).call(this);
 </script>
-  <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-google-ad" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <script data-source="Enabler.js" data-exports-type="gwd-google-ad" src="Enabler.js"></script>
   <script data-source="gwdgooglead_min.js" data-version="8" data-exports-type="gwd-google-ad">(function(){/*
 
  Copyright The Closure Library Authors.
